@@ -1,0 +1,29 @@
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 25%;
+}
+.menu ul li {
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 14px;
+  color: #eddfd0;
+  cursor: pointer;
+}
+
+.navMain {
+  margin: 0%;
+  padding: 0%;
+  position: absolute;
+}
+
+.NavContainer {
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  z-index: 2;
+}
+
+.NavContainer img {
+  margin-top: 20%;
+}

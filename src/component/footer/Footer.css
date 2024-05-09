@@ -1,0 +1,108 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fimage {
+  margin-top: 4%;
+  height: 25em;
+  width: 100%;
+  position: absolute;
+}
+
+.ftextonimg {
+  position: absolute;
+  left: 2%;
+  margin-top: 8rem;
+}
+
+.inputbox {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #eddfd0;
+  width: 330px;
+  padding: 8px;
+}
+
+.butt {
+  background-color: #938270;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  border: none;
+  color: #eddfd0;
+  cursor: pointer;
+}
+
+.ftextonimg1 {
+  position: absolute;
+  left: 43%;
+  margin-top: 8rem;
+}
+
+.ftextonimg1 ul li {
+  color: #eddfd0;
+  font-size: 100%;
+  line-height: 22px;
+}
+
+.ftextonimg2 {
+  position: absolute;
+  left: 63%;
+  margin-top: 8rem;
+}
+
+.ftextonimg2 ul li {
+  color: #eddfd0;
+  font-size: 100%;
+  line-height: 22px;
+}
+
+.ftextonimg3 {
+  position: absolute;
+  left: 77%;
+  margin-top: 8rem;
+}
+
+.ftextonimg3 ul li {
+  color: #eddfd0;
+  font-size: 90%;
+  line-height: 22px;
+}
+
+.line {
+  position: absolute;
+  left: 2%;
+  margin-top: 24rem;
+  width: 90%;
+  color: #eddfd0;
+}
+
+.bottoms {
+  display: flex;
+}
+.bottom1 {
+  font-family: "Aeonik";
+  font-size: 14px;
+  /* display: flex; */
+  position: absolute;
+  left: 2%;
+  margin-top: 26rem;
+  color: #eddfd0;
+}
+
+.bottom2 {
+  font-family: "Aeonik";
+  font-size: 14px;
+  position: absolute;
+  right: 8%;
+  margin-top: 26rem;
+  color: #eddfd0;
+}
+
+.ico {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #eddfd0;
+  cursor: pointer;
+}

@@ -28,6 +28,7 @@
   margin-top: 55px;
   margin-left: 35%;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .xplace-txt {
@@ -37,16 +38,14 @@
 .xfirst-txt {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
-  /* top: 160%; */
-  /* right: 4%; */
-  right: 2.7rem;
   color: #eddfd0;
   padding: 120px;
   height: 293px;
   width: 308px;
+  left: 0%;
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .xfirst-txt {
     right: 1.3rem;
   }
@@ -61,4 +60,45 @@
   font-size: 14px;
   color: #eddfd0;
   padding: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .xfeatureContainer {
+    margin-left: 3%;
+  }
+  .ximgMain {
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .xfirst-txt {
+    right: 2.7rem;
+    color: #eddfd0;
+    padding: 120px;
+    height: 293px;
+    width: 308px;
+  }
+} */
+
+/* @media screen and (max-width: 430px) {
+  .xfirst-txt {
+    right: 5rem;
+  }
+} */
+
+@media screen and (min-width: 936px) {
+  .xfirst-txt {
+    left: 308px;
+  }
+}
+
+@media screen and (min-width: 1405px) {
+  .xfirst-txt {
+    left: 1px;
+  }
+}
+
+@media screen and (min-width: 1799px) {
+  .xfirst-txt {
+    left: 910px;
+  }
 }

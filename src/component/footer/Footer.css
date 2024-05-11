@@ -106,3 +106,53 @@
   color: #eddfd0;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .ftextonimg1 {
+    left: 3%;
+    margin-top: 39rem;
+  }
+  .ftextonimg {
+    left: 2%;
+    margin-top: 16rem;
+  }
+  .footerContainer {
+    flex-direction: column;
+  }
+
+  .ftextonimg1 ul li {
+    font-size: 80%;
+    line-height: 15px;
+  }
+
+  .ftextonimg2 {
+    left: 43%;
+    margin-top: 39rem;
+  }
+
+  .ftextonimg2 ul li {
+    font-size: 80%;
+    line-height: 15px;
+  }
+  .inputbox {
+    width: 170px;
+  }
+
+  .ftextonimg3 {
+    left: 68%;
+    margin-top: 35rem;
+  }
+
+  .ftextonimg3 ul li {
+    font-size: 70%;
+    line-height: 14px;
+  }
+
+  .bottom1 {
+    font-size: 10px;
+  }
+
+  .bottom2 {
+    font-size: 10px;
+  }
+}

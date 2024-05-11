@@ -54,6 +54,7 @@
   margin-top: 40px;
   margin-left: 35%;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .place-txt {
@@ -63,17 +64,27 @@
 .first-txt {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
-  /* top: 160%; */
-  /* right: 4%; */
-  right: 2.7rem;
   color: #eddfd0;
   padding: 120px;
   height: 293px;
   width: 308px;
+  left: 0;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 936px) {
   .first-txt {
-    right: 1.3rem;
+    left: 308px;
+  }
+}
+
+@media screen and (min-width: 1405px) {
+  .first-txt {
+    left: 1px;
+  }
+}
+
+@media screen and (min-width: 1799px) {
+  .first-txt {
+    left: 910px;
   }
 }

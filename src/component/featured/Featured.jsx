@@ -12,7 +12,6 @@ const Featured = () => {
       delay: 1,
       rotate: 360,
       stagger: -1,
-      scrollTrigger: "#effect1",
     });
   });
   return (
